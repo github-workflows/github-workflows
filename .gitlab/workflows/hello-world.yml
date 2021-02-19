@@ -1,0 +1,9 @@
+name: Hello World
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: greet person
+      run: echo "Hello ${{ github.event.inputs.person }}"
