@@ -9,5 +9,4 @@ jobs:
 
     steps:
     - name: greet person
-    - run: echo "hello world"
-      run: echo "hello again"
+      run: echo "hello world"
