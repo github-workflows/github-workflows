@@ -8,5 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      name: greet person
-      run: echo "hello world"
+    - name: greet person
+    - run: echo "hello world"
+      run: echo "hello again"
