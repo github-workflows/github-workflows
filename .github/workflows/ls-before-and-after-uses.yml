@@ -13,4 +13,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: step-ls-after-uses
       run: ls -axl
+      run: ls .git -axl
+      run: ls .github -axl
       
