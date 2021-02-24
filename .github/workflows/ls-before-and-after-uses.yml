@@ -19,5 +19,5 @@ jobs:
     - name: ls .github/workflows after uses
       run: ls .github/workflows -axl
     - name: echo this yml
-      run: ls .github/workflows/ls-before-and-after-uses -axl
+      run: ls .github/workflows/ls-before-and-after-uses.yml -axl
       
