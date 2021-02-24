@@ -16,4 +16,5 @@ jobs:
         ls -axl
         ls .git -axl
         ls .github -axl
+        ls .github/workflows -axl
       
