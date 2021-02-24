@@ -1,4 +1,4 @@
-name: echo-this
+name: ls-before-and-after-uses
 
 on:
   workflow_dispatch:
