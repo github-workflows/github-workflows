@@ -1,16 +1,21 @@
 name: ls-before-and-after-uses
 
 on:
-  workflow_dispatch:
-
+#  workflow_dispatch:
+  [push]
+ 
 jobs:
   job-echo-this:
     runs-on: ubuntu-latest
 
     steps:
-    - name: step-ls-before-uses
+    - name: ls before uses
       run: ls -axl
     - uses: actions/checkout@v2
-    - name: ls -axl
+    - name: ls after uses
       run: ls -axl
+    - name: ls .github after uses
+      run: ls .github -axl
+    - name: ls .github/workflows after uses
+      run: ls .github/workflows -axl
       
