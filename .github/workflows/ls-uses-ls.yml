@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-#    - uses: actions/checkout@v2
-    - name: step-echo-this
+    - name: step-ls-before-uses
+      run: ls -axl
+    - uses: actions/checkout@v2
+    - name: step-ls-after-uses
       run: ls -axl
       
