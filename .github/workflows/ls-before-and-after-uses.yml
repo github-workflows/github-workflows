@@ -5,7 +5,7 @@ on:
   [push]
  
 jobs:
-  job-echo-this:
+  job-ls-before-and-after-uses:
     runs-on: ubuntu-latest
 
     steps:
