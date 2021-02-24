@@ -10,4 +10,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: step-echo-this
-      run: echo echo-this.yml
+      run: ls -axl
+      
