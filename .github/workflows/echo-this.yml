@@ -1,0 +1,13 @@
+name: hello-world-ssh
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job-echo-this:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: step-echo-this
+    - uses: actions/checkout@v2
+      run: echo echo-this.yml
