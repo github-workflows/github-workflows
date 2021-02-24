@@ -11,10 +11,6 @@ jobs:
     - name: step-ls-before-uses
       run: ls -axl
     - uses: actions/checkout@v2
-    - name: step-ls-after-uses
-      run: |
-        ls -axl
-        ls .git -axl
-        ls .github -axl
-        ls .github/workflows -axl
+    - name: ls -axl
+      run: ls -axl
       
